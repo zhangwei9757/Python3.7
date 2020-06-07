@@ -10,3 +10,8 @@ ipython
 import zhangwei
 zhangwei.__file__
 删除文件
+
+
+-- 安装第三方模块
+pip install pygame
+pip uninstall pygage
