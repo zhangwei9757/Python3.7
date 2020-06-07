@@ -1,3 +1,8 @@
+# *-* coding:UTF-8 *-*
+str = u"测试中文正常显示"
+
+print(eval("1+1"))
+
 -- 打包
 python setup.py build
 python setup.py sdist
