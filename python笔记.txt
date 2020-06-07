@@ -1,0 +1,12 @@
+-- 打包
+python setup.py build
+python setup.py sdist
+
+-- 解压安装
+python setup.py install
+
+-- 删除
+ipython
+import zhangwei
+zhangwei.__file__
+删除文件
