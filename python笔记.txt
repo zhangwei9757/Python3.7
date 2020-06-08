@@ -20,3 +20,9 @@ zhangwei.__file__
 -- 安装第三方模块
 pip install pygame
 pip uninstall pygage
+
+
+-- 导出版本
+pip freeze > requirements.txt
+-- 安装 
+pip install -r requirements.txt
