@@ -1,0 +1,23 @@
+Anaconda  + Pycharm  使用
+
+https://www.cnblogs.com/yuxuefeng/p/9235431.html
+
+
+
+1.  先下载anaconda 官方网址: https://www.anaconda.com/products/individual  
+2.  (1)双击下载好的Anaconda3-5.0.1-Windows-x86_64.exe，点击next
+    (2).点击I Agree
+    (3).一般来说选 Just Me ，假如你的电脑有很多用户 ，才需要考虑这个问题。所以我直接选择的 Just Me ，然后继续点击 Next 。
+    (4).点 Browse 选择安装位置，这个自由选择，然后继续点击 Next
+    (5).这里注意将两个选项都选上，第一个选项的意思是将安装路径写入环境变量，点击 Install
+    (6).验证是否安装成功
+      安装好 Anaconda 后，重新打开命令行窗口，输入 python，可看到 Anaconda 的信息：
+      （如果从程序快速启动 cmd 输入 python 看不到已经安装好的 anaconda 信息，需要先进入 Anaconda 安装目录下，再输入 python，即可查看到上述信息。
+      关闭 cmd 后再次启动时，则直接输入 python 即可看到如上信息了）
+      先进入 Anaconda 安装目录下再输入 conda list 就可以查询现在安装了哪些库，常用的 numpy, scipy 名列其中。看到如下信息，则已安装成功。
+    (7).更新所有包（防患于未然）
+        初次安装的包一般比较老，为了避免之后使用报错，可以输入 conda update --all 命令，把所有包进行更新。
+        在提示是否更新的时候输入 y（Yes）让更新继续。
+        
+        
+3. 先下载pycharm 官方网址: http://www.jetbrains.com/pycharm/        
