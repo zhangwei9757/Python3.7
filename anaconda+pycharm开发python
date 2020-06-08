@@ -16,7 +16,7 @@ https://www.cnblogs.com/yuxuefeng/p/9235431.html
       关闭 cmd 后再次启动时，则直接输入 python 即可看到如上信息了）
       先进入 Anaconda 安装目录下再输入 conda list 就可以查询现在安装了哪些库，常用的 numpy, scipy 名列其中。看到如下信息，则已安装成功。
     (7).更新所有包（防患于未然）
-        初次安装的包一般比较老，为了避免之后使用报错，可以输入 conda update --all 命令，把所有包进行更新。
+        初次安装的包一般比较老，为了避免之后使用报错，可以输入 conda update/upgrade --all 命令，把所有包进行更新。
         在提示是否更新的时候输入 y（Yes）让更新继续。
         
         
